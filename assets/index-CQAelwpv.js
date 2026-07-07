@@ -114,67 +114,74 @@ Error generating stack: `+l.message+`
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const ME=[["path",{d:"M18 6 6 18",key:"1bl5f8"}],["path",{d:"m6 6 12 12",key:"d8bk6v"}]],CE=In("x",ME);function DE({text:i,className:a="",showAsterisk:u=!1}){const s=q.useRef(null),c=Nu(s,{once:!0,margin:"-10%"}),h=i.trim().split(" ");return M.jsx("div",{ref:s,className:`flex flex-wrap ${a}`,children:h.map((f,m)=>{const y=m===h.length-1,p=u&&y&&f.endsWith("a");return M.jsx(Ye.div,{initial:{y:20,opacity:0},animate:c?{y:0,opacity:1}:{y:20,opacity:0},transition:{delay:m*.08,duration:.8,ease:[.16,1,.3,1]},className:"mr-[0.2em] relative inline-block",children:p?M.jsxs("span",{className:"relative inline-block",children:[f.slice(0,-1),M.jsxs("span",{className:"relative inline-block",children:["a",M.jsx("span",{className:"absolute top-[0.65em] -right-[0.3em] text-[0.31em]",children:"*"})]})]}):f},m)})})}const ca={name:"YuHang",description:"我是一个在工业界做软件的工程师，懂AI，并尝试用AI改变我的生活与工作方式。喜欢听古典乐和爵士，喜欢美食和摄影。长期主义，坚定复利和成长的价值。",contactLinks:{github:"https://github.com/happy-momo",linkedin:"https://www.linkedin.com/in/peng-yuhang-787b97312",zhihu:"https://www.zhihu.com/people/peng-yu-hang-80",email:"mailto:zy2007412@buaa.edu.cn"}},au={sectionTitle:"个人履历和成长",timeline:[{year:"2016 - 2020",title:"北京交通大学 - 本科",description:`
--校园经历与社团活动
+ */const ME=[["path",{d:"M18 6 6 18",key:"1bl5f8"}],["path",{d:"m6 6 12 12",key:"d8bk6v"}]],CE=In("x",ME);function DE({text:i,className:a="",showAsterisk:u=!1}){const s=q.useRef(null),c=Nu(s,{once:!0,margin:"-10%"}),h=i.trim().split(" ");return M.jsx("div",{ref:s,className:`flex flex-wrap ${a}`,children:h.map((f,m)=>{const y=m===h.length-1,p=u&&y&&f.endsWith("a");return M.jsx(Ye.div,{initial:{y:20,opacity:0},animate:c?{y:0,opacity:1}:{y:20,opacity:0},transition:{delay:m*.08,duration:.8,ease:[.16,1,.3,1]},className:"mr-[0.2em] relative inline-block",children:p?M.jsxs("span",{className:"relative inline-block",children:[f.slice(0,-1),M.jsxs("span",{className:"relative inline-block",children:["a",M.jsx("span",{className:"absolute top-[0.65em] -right-[0.3em] text-[0.31em]",children:"*"})]})]}):f},m)})})}const ca={name:"YuHang",description:"我是一个在工业界做软件的工程师，懂AI，并尝试用AI改变我的生活与工作方式。喜欢听古典乐和爵士，喜欢美食和摄影。长期主义，坚定复利和成长的价值。",contactLinks:{github:"https://github.com/happy-momo",linkedin:"https://www.linkedin.com/in/peng-yuhang-787b97312",zhihu:"https://www.zhihu.com/people/peng-yu-hang-80",email:"mailto:zy2007412@buaa.edu.cn"}},au={sectionTitle:"个人履历和成长",timeline:[{year:"2016 - 2020",title:"北京交通大学 - 本科",description:`**校园经历与社团活动**
 2016–2018 加入校学生志愿者协会
--学历背景
+
+**学历背景**
 车辆工程专业 工学学士（机械与电子控制工程学院）
--专业学习方向
+
+**专业学习方向**
 主攻高铁列车工程方向，熟练掌握结构力学、车辆动力学及先进轨道交通系统相关专业知识
--核心主修课程
+
+**核心主修课程**
 机械原理与机械设计、机械制造技术基础、数字与模拟电路、轨道交通系统
--荣誉奖项
-2016、2017 学年：校级学业奖学金、"三好学生" 称号
-2018 学年：院级学业奖学金
--学科竞赛与成果
-第十二届全国大学生节能减排社会实践与科技竞赛 全国三等奖（2019）
-全国三维数字化创新设计大赛 北京赛区二等奖（2019）`},{year:"2020 - 2023",title:"北京航空航天大学 - 硕士",description:`
--学历背景
 
-机械工程专业 工学硕士（机械工程及自动化学院）   
--研究室
-企业信息化实验室，主攻智能制造知识管理方向
--荣誉奖项
+**荣誉奖项**
+- 2016、2017 学年：校级学业奖学金、"三好学生" 称号
+- 2018 学年：院级学业奖学金
+
+**学科竞赛与成果**
+- 第十二届全国大学生节能减排社会实践与科技竞赛 全国三等奖（2019）
+- 全国三维数字化创新设计大赛 北京赛区二等奖（2019）`},{year:"2020 - 2023",title:"北京航空航天大学 - 硕士",description:`**学历背景**
+机械工程专业 工学硕士（机械工程及自动化学院）
+研究室：企业信息化实验室，主攻智能制造知识管理方向
+
+**荣誉奖项**
 校级二等奖学业奖学金
--核心项目经历
 
-刀具知识管理系统（端到端独立开发）
-搭建智能制造知识管理系统，整合工装刀具数据、切削工艺参数，并梳理一千余篇行业文献萃取专业领域知识；
-研发工艺刀具推荐系统，可结合现场生产约束条件，自动匹配最优刀具方案与加工参数。
-边缘端 - 客户端道路病害检测系统（科研项目 + 学术论文）
+**核心项目经历**
+- 刀具知识管理系统（端到端独立开发）
+搭建智能制造知识管理系统，整合工装刀具数据、切削工艺参数，并梳理一千余篇行业文献萃取专业领域知识；研发工艺刀具推荐系统，可结合现场生产约束条件，自动匹配最优刀具方案与加工参数。
+- 边缘端 - 客户端道路病害检测系统（科研项目 + 学术论文）
+参与撰写 IEEE CAC 会议正式收录论文，基于 YOLOv5 算法搭建道路损伤实时检测系统；论文：Li, M. J., Wang, H., Peng, Y., et al. 《Edge-to-client real-time road damage detection system based on Yolov5》，IEEE CAC，2021 年。`},{year:"2023 - 2024",title:"西门子 Sales100 管培生",description:`入选西门子标杆人才培养项目 "Sales100 管培生计划"，系统夯实工业自动化领域技术功底与商务业务能力。
 
-参与撰写 IEEE CAC 会议正式收录论文，基于 YOLOv5 算法搭建道路损伤实时检测系统；
-论文：Li, M. J., Wang, H., Peng, Y., et al. 《Edge-to-client real-time road damage detection system based on Yolov5》，IEEE CAC，2021 年。`},{year:"2023 - 2024",title:"西门子 Sales100 管培生",description:`入选西门子标杆人才培养项目 "Sales100 管培生计划"，系统夯实工业自动化领域技术功底与商务业务能力。
--技术赋能培训（2023 年 7 月 —12 月）
+**技术赋能培训**（2023 年 7 月 —12 月）
 完成自动化核心技术封闭式集训与线下实操实验，学习内容涵盖可编程逻辑控制器（PLC）、人机交互界面（HMI）、传动系统等。
--北京奔驰驻场轮岗（2024 年 1 月 —4 月）
+
+**北京奔驰驻场轮岗**（2024 年 1 月 —4 月）
 调入工厂自动化解决方案（SFAE FASO）团队，驻北京奔驰汽车有限公司（BBAC）现场办公，负责配套高端汽车自动化产线项目技术支持。
--行业市场调研（2024 年 5 月）
-开展定向工业自动化市场调研，梳理行业新兴技术发展趋势，挖掘客户真实业务需求。`},{year:"2024.1 - 2024.5",title:"北京奔驰汽车有限公司",description:`
-      -整车制造全流程认知
+
+**行业市场调研**（2024 年 5 月）
+开展定向工业自动化市场调研，梳理行业新兴技术发展趋势，挖掘客户真实业务需求。`},{year:"2024.1 - 2024.5",title:"北京奔驰汽车有限公司",description:`**整车制造全流程认知**
 驻底盘车身合装产线实习，深度实操并系统掌握总装车间、动力总成工厂、涂装车间全汽车制造工艺流程。
--数字化价值链体系学习
-系统研习北京奔驰端到端数字化工业全链路，深入理解汽车行业智能工厂运营模式与数字化转型整体架构。`},{year:"2024.5 - 2025.10",title:"Siemens Technical Consultant",description:`
-      -需求分析与软件开发
+
+**数字化价值链体系学习**
+系统研习北京奔驰端到端数字化工业全链路，深入理解汽车行业智能工厂运营模式与数字化转型整体架构。`},{year:"2024.5 - 2025.10",title:"Siemens Technical Consultant",description:`**需求分析与软件开发**
 直接对接客户完成全维度需求调研，将复杂工业场景痛点转化为定制化软件解决方案。
--项目全流程交付
+
+**项目全流程交付**
 统筹项目部署完整生命周期，保障现场落地实施顺畅，交付成果贴合客户预期。
--客户技术赋能与培训
+
+**客户技术赋能与培训**
 定制并开展客户侧技术培训，助力客户团队快速上手，实现系统平稳交接与技术落地应用。`},{year:"2025.10 - 至今",title:"Siemens Digitalization Solution Expert",description:`围绕西门子 "One Tech Company" 战略部署，本人岗位转变为数字化解决方案专家，核心聚焦基于西门子工业边缘（Industrial Edge）平台的市场策略规划与行业方案落地实施。
 身兼端到端全流程工作职责，核心工作内容如下：
--客户咨询与方案设计
+
+**客户咨询与方案设计**
 直接对接客户，深度挖掘生产业务痛点，定制专属数字化转型整体方案。
--软件开发与系统集成
+
+**软件开发与系统集成**
 独立开发配套应用软件，并完成与西门子工业边缘技术平台的对接集成。
--现场部署与落地实施
+
+**现场部署与落地实施**
 负责项目现场设备安装、系统上线部署及全流程故障排查调试。
--客户赋能与技术培训
-面向客户及渠道合作伙伴开展专项技术培训，保障相关技术平稳落地、正常投产使用。`}],detailedExperience:{title:"关于我的旅程",content:"在这里写下我的一段详细经历。我始终相信技术的复利效应，坚持长期主义，并坚信终身学习的力量。相信未来是属于具有包容、自我驱动、自我认知和持续学习能力的人。"}},lu={sectionTitle:"开源项目与作品",subtitle:"探索AI与工业软件。",projects:[{id:"01",title:"MosaicDB",description:"轻量级、高性能的存储引擎或数据库解决方案，专为特定场景下的数据聚合与高效查询设计。",tags:["InfluxDB","GoLang","React","MySQL","MongoDB"],link:"https://github.com/happy-momo/MosaicDB"},{id:"02",title:"Transformer2edge",description:"针对边缘计算场景优化的Transformer模型推理和部署教程，旨在帮助快速上手学习将AI模型轻量化并高效部署至工业边缘设备。",tags:["Edge Computing","Transformer","AI"],link:"https://github.com/happy-momo/Transformer2edge"},{id:"03",title:"transformer-visualizer",description:"直观的Transformer模型架构可视化工具，帮助开发者更好地理解注意力机制与模型内部数据流向。",tags:["Visualization","Deep Learning","React"],link:"https://github.com/happy-momo/transformer-visualizer"},{id:"04",title:"EASY-Knowledge-Graph-Builder",description:"基于大模型的自动化知识图谱构建工具，简化从非结构化文本到图数据库的流程。",tags:["Python","LangChain","Neo4j"],link:"https://github.com/happy-momo/EASY-Knowledge-Graph-Builder"},{id:"05",title:"Mechanical-Knowledge-System",description:"工业机械领域的知识问答与管理系统，结合RAG架构与垂直领域语料库。",tags:["FastAPI","AI","Manufacturing","Neo4j","Bert","Transformer"],link:"https://github.com/happy-momo/Mechanical-Knowledge-System"},{id:"06",title:"TensorVis",description:"用于张量数据和深度学习模型结构的轻量级可视化工具，辅助理解模型原理。",tags:["React","D3.js","PyTorch"],link:"https://github.com/happy-momo/TensorVis"},{id:"07",title:"ClaudeCode-Dashboard",description:"为Claude Code提供数据统计与洞察面板的插件。",tags:["TypeScript","Dashboard","Tooling"],link:"https://github.com/happy-momo/ClaudeCode-Dashboard"},{id:"08",title:"ME-NER",description:"开发面向机械制造领域的实体抽取算法",tags:["Bert","LSTM","PyTorch"]},{id:"09",title:"ME-RE",description:"开发面向机械制造领域的关系抽取算法",tags:["Bert","LSTM","PyTorch"]},{id:"10",title:"Industrial Edge' IOT 平台构建",description:"基于工业边缘平台搭建车间级IOT平台，支持设备监控、数据采集与分析。",tags:["Edge Computing","NodeRed","Docker"]},{id:"11",title:"基于边缘计算的高速电机分析软件开发",description:"基于工业边缘平台开发高速电机分析软件，实时处理电机数据。",tags:["Edge Computing","NodeRed","Docker","Python","Flask","Vue"]},{id:"12",title:"基于边缘计算的食品饮料行业数据标准化",description:"基于工业边缘平台设计食品饮料行业数据标准化的流程。",tags:["Edge Computing","NodeRed","Python"]},{id:"13",title:"基于边缘计算的报警远程推送系统",description:"基于工业边缘平台设计报警远程推送系统。",tags:["Edge Computing","NodeRed","Python","Vue"]},{id:"14",title:"基于边缘计算的实时控制优化系统",description:"基于工业边缘平台设计实时控制优化系统。",tags:["Edge Computing","NodeRed","Python","Vue","Docker","WinCC"]},{id:"15",title:"边缘计算设备选型和报价系统",description:"基于工业边缘平台设计设备选型和报价系统。支持AI推荐和辅助选型。",tags:["Prompt Engineering","LangChain","Python","Vue","Docker","LLM"]},{id:"16",title:"基于边缘设备的网络资产管理系统",description:"基于工业边缘平台设计网络资产管理系统。能够管理同网段内的所有设备，并监控设备状态。支持设备的添加、删除、修改和查询，报警远程推送等。",tags:["Edge Computing","NodeRed","Docker","Python","Flask","Vue"]},{id:"17",title:"基于边缘设备的数据库管理系统",description:"基于工业边缘平台设计数据库管理系统。能够实现MySQL、PostgreSQL、MongoDB、influxDB、Redis数据库的管理。",tags:["Edge Computing","NodeRed","Docker","Python","Flask","Vue"]}]},su={sectionTitle:"个人博客",subtitle:"记录灵感瞬间与创作思考。",posts:[{id:"post-1",date:"2026-05-12",title:"Claude Code——Skill、MCP、Plugin 分别是什么？",excerpt:"探讨Skill、MCP、Plugin 的作用和关系。",category:"技术心得",content:`## 一、Skill、MCP、Plugin 核心定义
+
+**客户赋能与技术培训**
+面向客户及渠道合作伙伴开展专项技术培训，保障相关技术平稳落地、正常投产使用。`}],detailedExperience:{title:"关于我的旅程",content:"在这里写下我的一段详细经历。我始终相信技术的复利效应，坚持长期主义，并坚信终身学习的力量。相信未来是属于具有包容、自我驱动、自我认知和持续学习能力的人。"}},lu={sectionTitle:"开源项目与作品",subtitle:"探索AI与工业软件。",projects:[{id:"01",title:"MosaicDB",description:"BS架构的数据库管理系统，支持MySQL、PostgreSQL、MongoDB、influxDB、Redis。",tags:["InfluxDB","GoLang","React","MySQL","MongoDB"],link:"https://github.com/happy-momo/MosaicDB"},{id:"02",title:"Transformer2edge",description:"针对边缘计算场景优化的Transformer模型推理和部署教程，旨在帮助快速上手学习将AI模型轻量化并高效部署至工业边缘设备。",tags:["Edge Computing","Transformer","AI"],link:"https://github.com/happy-momo/Transformer2edge"},{id:"03",title:"transformer-visualizer",description:"直观的Transformer模型架构可视化工具，帮助开发者更好地理解注意力机制与模型内部数据流向。",tags:["Visualization","Deep Learning","React"],link:"https://github.com/happy-momo/transformer-visualizer"},{id:"04",title:"EASY-Knowledge-Graph-Builder",description:"基于大模型的自动化知识图谱构建工具，简化从非结构化文本到图数据库的流程。",tags:["Python","LangChain","Neo4j"],link:"https://github.com/happy-momo/EASY-Knowledge-Graph-Builder"},{id:"05",title:"Mechanical-Knowledge-System",description:"工业机械领域的知识问答与管理系统，结合RAG架构与垂直领域语料库。",tags:["FastAPI","AI","Manufacturing","Neo4j","Bert","Transformer"],link:"https://github.com/happy-momo/Mechanical-Knowledge-System"},{id:"06",title:"TensorVis",description:"用于张量数据和深度学习模型结构的轻量级可视化工具，辅助理解模型原理。",tags:["React","D3.js","PyTorch"],link:"https://github.com/happy-momo/TensorVis"},{id:"07",title:"ClaudeCode-Dashboard",description:"为Claude Code提供数据统计与洞察面板的插件。",tags:["TypeScript","Dashboard","Tooling","Claude Code","Plugin","Python","React"],link:"https://github.com/happy-momo/ClaudeCode-Dashboard"},{id:"08",title:"ME-NER",description:"开发面向机械制造领域的实体抽取算法",tags:["Bert","LSTM","PyTorch"]},{id:"09",title:"ME-RE",description:"开发面向机械制造领域的关系抽取算法",tags:["Bert","LSTM","PyTorch"]},{id:"10",title:"Industrial Edge' IOT 平台构建",description:"基于工业边缘平台搭建车间级IOT平台，支持设备监控、数据采集与分析。",tags:["Edge Computing","NodeRed","Docker"]},{id:"11",title:"基于边缘计算的高速电机分析软件开发",description:"基于工业边缘平台开发高速电机分析软件，实时处理电机数据。",tags:["Edge Computing","NodeRed","Docker","Python","Flask","Vue"]},{id:"12",title:"基于边缘计算的食品饮料行业数据标准化",description:"基于工业边缘平台设计食品饮料行业数据标准化的流程。",tags:["Edge Computing","NodeRed","Python"]},{id:"13",title:"基于边缘计算的报警远程推送系统",description:"基于工业边缘平台设计报警远程推送系统。",tags:["Edge Computing","NodeRed","Python","Vue"]},{id:"14",title:"基于边缘计算的实时控制优化系统",description:"基于工业边缘平台设计实时控制优化系统。",tags:["Edge Computing","NodeRed","Python","Vue","Docker","WinCC"]},{id:"15",title:"边缘计算设备选型和报价系统",description:"基于工业边缘平台设计设备选型和报价系统。支持AI推荐和辅助选型。",tags:["Prompt Engineering","LangChain","Python","Vue","Docker","LLM"]},{id:"16",title:"基于边缘设备的网络资产管理系统",description:"基于工业边缘平台设计网络资产管理系统。能够管理同网段内的所有设备，并监控设备状态。支持设备的添加、删除、修改和查询，报警远程推送等。",tags:["Edge Computing","NodeRed","Docker","Python","Flask","Vue"]},{id:"17",title:"基于边缘设备的数据库管理系统",description:"基于工业边缘平台设计数据库管理系统。能够实现MySQL、PostgreSQL、MongoDB、influxDB、Redis数据库的管理。",tags:["Edge Computing","NodeRed","Docker","Python","Flask","Vue"]}]},su={sectionTitle:"个人博客",subtitle:"记录灵感瞬间与创作思考。",posts:[{id:"post-1",date:"2026-05-12",title:"Claude Code——Skill、MCP、Plugin 分别是什么？",excerpt:"探讨在制造业数字化转型中，如何利用大语言模型（LLM）提取非结构化文档，自动化构建图数据库，并落地到实际生产环境中。",category:"技术心得",content:`## 一、Skill、MCP、Plugin 核心定义
 
 可将 Claude Code 的扩展体系拆解为三层独立且互补的能力，三者核心定义、本质、用途及特性如下：
 
 | 概念 | 本质 | 解决什么问题 | 是否需要写代码 | 典型产物 |
-|------|------|-------------|---------------|---------|
+|------|------|-------------|---------------|----------------|----------|
 | Skill | 可复用的「任务说明包」 | 教会 Claude 标准化完成某类固定任务 | 不一定，以 Markdown 为主，可附带简易脚本 | SKILL.md、配套脚本、参考资料 |
 | MCP | 模型上下文协议（Model Context Protocol） | 打通 Claude 与外部工具、系统、数据库、API 的连接通道 | 通常需要编写服务端代码 | MCP Server |
 | Plugin | Claude Code 扩展的打包与分发单位 | 聚合各类扩展能力，实现统一打包、安装、分享与复用 | 视聚合内容而定 | .claude-plugin/plugin.json + 各类组件目录 |
@@ -249,7 +256,7 @@ quality-review-plugin/
 将 Claude Code 类比为「专业工程师」，三者对应角色一目了然：
 
 | 组件 | 通俗类比 |
-|------|---------|
+|------|----------|
 | Skill | 工程师的 SOP 操作手册、团队工作规范、任务执行标准 |
 | MCP | 工程师可调用的外部工具、系统接口、数据资源 |
 | Plugin | 打包好的团队工具包，整合操作规范、工具配置、快捷能力，可全员复用 |
